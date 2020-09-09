@@ -1,0 +1,6 @@
+version: "2"
+services:
+  qntfy-ask-detection:
+    build: .
+    ports:
+      - "50051:50051"
